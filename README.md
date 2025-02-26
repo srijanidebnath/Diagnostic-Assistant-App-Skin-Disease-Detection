@@ -11,7 +11,7 @@ Features:
 Multi-Model Approach:
 
 Image Classifier: Uses a fine-tuned Vision Transformer (ViT_base_patch16_224) to classify skin lesions into Chickenpox, Cowpox, HFMD, Measles, Monkeypox, and Other with 88.89% accuracy.
-Patient Data Classifier: A fine-tuned distilroberta-base binary classifier that evaluates patient symptoms and medical history to determine the likelihood of Monkeypox (Mpox) having an accuracy of 74.68%.
+Patient Data Classifier: A fine-tuned distilroberta-base binary classifier that evaluates patient symptoms and medical history like Systemic Illness, Rectal Pain, Sore Throat, Penile Oedema, Oral Lesions, Solitary Lesion, Swollen Tonsils, HIV Infection, Sexually Transmitted Infection to determine the likelihood of Monkeypox (Mpox) having an accuracy of 74.68%.
 
 Web Application:
 
