@@ -104,20 +104,37 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 
 **3. Open in Code Editor:**
 
-**Open the extracted folder in your favorite code editor or IDE.**
+**Open the extracted folder in your local code editor or IDE (like PyCharm or Visual Studio Code etc).**
 
 
-**4. Run the Web App:**
+**4. Install all necessary dependencies or packages to run the streamlit web app:**
 
-**Open a terminal in the project folder and run:** streamlit run app_main.py
+**In the command prompt, run the below command to install all the required dependencies to run the web app in your local machine:**
 
+```cmd
+pip install streamlit torch torchvision transformers timm pillow pandas fpdf
+```
+
+![Screenshot (14001)](https://github.com/user-attachments/assets/24f86291-016c-433d-b075-9091a3becb8c)
+
+
+
+
+
+**5. Run the Web App:**
+
+**You need to open a terminal within your IDE (or use the command prompt) in the project folder and run the below code:** 
+
+```cmd
+streamlit run app_main.py
+```
 
 
 ![Screenshot (13980)](https://github.com/user-attachments/assets/87ad84a5-44dc-45c1-ac23-1d69ac0fbec8)
 
 
 
-**5. The Streamlit web app will open in your local browser. (Note: This may take a few minutes as the transformers library downloads necessary resources.)**
+**6. The Streamlit web app will open in your local browser. (Note: This may take a few minutes as the transformers library downloads necessary resources.)**
 
 
 
