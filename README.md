@@ -106,6 +106,11 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 
 **Open the extracted folder in your local code editor or IDE (like PyCharm or Visual Studio Code etc).**
 
+![Screenshot (14002)](https://github.com/user-attachments/assets/f40d80a1-1799-4793-8b24-456e56b8754d)
+
+
+![Screenshot (14004)](https://github.com/user-attachments/assets/74f6ec12-b6db-44dc-a0ee-c58fcb249f65)
+
 
 **4. Install all necessary dependencies or packages to run the streamlit web app:**
 
