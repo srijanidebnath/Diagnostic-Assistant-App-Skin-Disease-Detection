@@ -84,7 +84,7 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 
 **2. Extract Files:**
 
-Extract the downloaded zip file to a local directory.
+**Extract the downloaded zip file to a local directory.**
 
 
 
