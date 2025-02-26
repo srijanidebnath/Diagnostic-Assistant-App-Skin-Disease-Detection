@@ -2,18 +2,17 @@
 
 # Overview
 
-This project is a multi-model diagnostic assistant that leverages AI to analyze medical images and patient data for accurate skin disease diagnosis. It aids healthcare 
+This project is a multi-model diagnostic assistant that leverages AI to analyze medical images and patient data for accurate skin disease diagnosis. It aids healthcare professionals and the general public in the early detection of Mpox (formerly known as monkeypox) and other skin conditions, facilitating prompt medical intervention.
 
-professionals and the general public in the early detection of Mpox (formerly known as monkeypox) and other skin conditions, facilitating prompt medical intervention.
+# Features:
 
-Features:
-
-Multi-Model Approach:
+# Multi-Model Approach:
 
 Image Classifier: Uses a fine-tuned Vision Transformer (ViT_base_patch16_224) to classify skin lesions into Chickenpox, Cowpox, HFMD, Measles, Monkeypox, and Other with 88.89% accuracy.
+
 Patient Data Classifier: A fine-tuned distilroberta-base binary classifier that evaluates patient symptoms and medical history like Systemic Illness, Rectal Pain, Sore Throat, Penile Oedema, Oral Lesions, Solitary Lesion, Swollen Tonsils, HIV Infection, Sexually Transmitted Infection to determine the likelihood of Monkeypox (Mpox) having an accuracy of 74.68%.
 
-Web Application:
+# Web Application:
 
 
 1. Built using Streamlit.
@@ -39,35 +38,35 @@ The Clade 1b variant of Mpox, with a mortality rate of approximately 3%, has rai
 
 As of September 2024, India has reported 32 cases since the World Health Organization (WHO) declared Mpox a public health emergency in 2022.
 
-Need for Early Detection:
+# Need for Early Detection:
 
 With India's dense population, early detection and prevention are critical to prevent potential outbreaks.
 
 Misdiagnosis due to overlapping symptoms with other skin conditions can delay treatment and increase disease transmission.
 
-Model Details:
+# Model Details:
 
 **1. Medical Image Multiclass Classifier:**
 
-Model: Fine-tuned Vision Transformer (ViT_base_patch16_224)
+**Model: Fine-tuned Vision Transformer (ViT_base_patch16_224)**
 
 **Dataset: Mpox Skin Lesion Dataset v2.0**
 
 **Accuracy: 88.89%**
 
-Classes: Chickenpox, Cowpox, HFMD, Measles, Monkeypox, Other
+**Classes: Chickenpox, Cowpox, HFMD, Measles, Monkeypox, Other**
 
 **2. Tabular Mpox Patient Data Binary Classifier:**
 
-Model: Fine-tuned distilroberta-base
+**Model: Fine-tuned distilroberta-base**
 
 **Dataset: Mpox Patient Dataset**
 
 **Accuracy: 74.68%**
 
-Purpose: Evaluates patient symptoms and medical history to detect the likelihood of Mpox
+**Purpose: Evaluates patient symptoms and medical history to detect the likelihood of Mpox**
 
-Outcome: Binary prediction (Mpox Positive or Negative)
+**Outcome: Binary prediction (Mpox Positive or Negative)**
 
 
 # Installation & Setup
