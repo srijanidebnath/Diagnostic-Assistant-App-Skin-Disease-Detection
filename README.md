@@ -120,6 +120,9 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 pip install streamlit torch torchvision transformers timm pillow pandas fpdf
 ```
 
+**Make sure that the Python interpreter associated with the IDE has access to the installed packages.**
+
+
 ![Screenshot (14001)](https://github.com/user-attachments/assets/24f86291-016c-433d-b075-9091a3becb8c)
 
 
