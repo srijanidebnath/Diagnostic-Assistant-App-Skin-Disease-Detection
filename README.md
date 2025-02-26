@@ -76,6 +76,9 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 
 Download the folder as a zip file from this link: https://drive.google.com/drive/folders/1a9xyKWCktcuUjtwGahsacjPBl14EIu40?usp=sharing
 
+![Screenshot (13976)](https://github.com/user-attachments/assets/a586620d-69de-40e8-9a29-c4f4f3a1c514)
+
+
 2. Extract Files:
 
 Extract the downloaded zip file to a local directory.
