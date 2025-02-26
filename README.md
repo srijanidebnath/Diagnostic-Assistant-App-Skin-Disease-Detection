@@ -77,7 +77,9 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 **Download the folder as a zip file from this link:** https://drive.google.com/drive/folders/1a9xyKWCktcuUjtwGahsacjPBl14EIu40?usp=sharing
 
 
+
 ![Screenshot (13976)](https://github.com/user-attachments/assets/a586620d-69de-40e8-9a29-c4f4f3a1c514)
+
 
 
 **2. Extract Files:**
@@ -85,7 +87,9 @@ Outcome: Binary prediction (Mpox Positive or Negative)
 Extract the downloaded zip file to a local directory.
 
 
+
 ![Screenshot (13977)](https://github.com/user-attachments/assets/a9760cf9-f91c-4b4e-aead-972834a68732)
+
 
 
 **Ensure all files are in the same directory.**
@@ -93,7 +97,9 @@ Extract the downloaded zip file to a local directory.
 **Note: If the files are not in the same directory, update the model paths in the code where the models are loaded.**
 
 
+
 ![Screenshot (13978)](https://github.com/user-attachments/assets/33438850-9760-4c4e-938c-7f7610b36cca)
+
 
 
 **3. Open in Code Editor:**
@@ -106,13 +112,17 @@ Extract the downloaded zip file to a local directory.
 **Open a terminal in the project folder and run:** streamlit run app_main.py
 
 
+
 ![Screenshot (13980)](https://github.com/user-attachments/assets/87ad84a5-44dc-45c1-ac23-1d69ac0fbec8)
+
 
 
 **5. The Streamlit web app will open in your local browser. (Note: This may take a few minutes as the transformers library downloads necessary resources.)**
 
 
+
 ![Screenshot (13981)](https://github.com/user-attachments/assets/cce6bb7a-0e65-4a67-9120-88c92907a4e7)
+
 
 
 # Usage Instructions
@@ -125,10 +135,13 @@ Extract the downloaded zip file to a local directory.
 **Upload an image of a skin lesion to the Image Classifier for analysis and diagnosis.**
 
 
+
 ![Screenshot (13982)](https://github.com/user-attachments/assets/dc3dde8a-8155-4989-8edf-c7c871aa0ae7)
 
 
+
 ![Screenshot (13983)](https://github.com/user-attachments/assets/0c9ccf1d-a9c6-4278-99ab-226dd830f64d)
+
 
 
 
@@ -137,7 +150,9 @@ Extract the downloaded zip file to a local directory.
 **Fill in the patient symptoms section to determine whether you are Mpox positive or negative via the binary classifier.**
 
 
+
 ![Screenshot (13984)](https://github.com/user-attachments/assets/86141fea-2f4b-4fc6-8902-751e7c276119)
+
 
 
 ![Screenshot (13985)](https://github.com/user-attachments/assets/c267bf7d-551c-4453-a2ee-71a5998ec7bd)
@@ -149,6 +164,7 @@ Extract the downloaded zip file to a local directory.
 **Change the language to Spanish from the sidebar (default language is English).**
 
 
+
 ![Screenshot (13987)](https://github.com/user-attachments/assets/81cf0570-c258-4986-9669-c59cb0478a4b)
 
 
@@ -157,12 +173,14 @@ Extract the downloaded zip file to a local directory.
 **Download diagnostic reports in PDF format for both the image analysis and patient data classification.**
 
 
+
 ![Screenshot (13986)](https://github.com/user-attachments/assets/49080ca7-ec39-4f01-ae74-fa1be7d1e922)
 
 
 # Doctor Consultation:
 
 **Click on the provided doctor consultation link to book a consultation.**
+
 
 
 ![Screenshot (13999)](https://github.com/user-attachments/assets/bc18c1df-0da7-4c88-a57e-459faf899e7c)
